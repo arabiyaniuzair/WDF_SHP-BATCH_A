@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: lightgray;
+            margin:20px;
+        }
+
+        h1{
+            color: blue;
+            text-align:center;
+        }
+
+        h2{
+            color:green;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            background-color:white;
+        }
+
+        table, th, td{
+            border:1px solid black;
+        }
+
+        th{
+            background-color:skyblue;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:center;
+        }
+
+        form{
+            background-color:white;
+            padding:15px;
+            border:1px solid black;
+        }
+
+        input{
+            margin:5px;
+        }
+
+        textarea{
+            margin:5px;
+        }
+
+        input[type="submit"]{
+            background-color:green;
+            color:white;
+            padding:8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Student Information System</h1>
+
+<p>
+This webpage is created using basic HTML and CSS.
+It contains headings, paragraphs, tables and forms.
+</p>
+
+<h2>Student Details</h2>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Course</th>
+<th>Semester</th>
+</tr>
+
+<tr>
+<td>101</td>
+<td>Ali</td>
+<td>BSCS</td>
+<td>3</td>
+</tr>
+
+<tr>
+<td>102</td>
+<td>Ahmed</td>
+<td>BCA</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>103</td>
+<td>Uzair</td>
+<td>B.Tech</td>
+<td>4</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2>Student Registration Form</h2>
+
+<form>
+
+<label>Name:</label><br>
+<input type="text"><br><br>
+
+<label>Email:</label><br>
+<input type="email"><br><br>
+
+<label>Password:</label><br>
+<input type="password"><br><br>
+
+<label>Gender:</label><br>
+
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>Course:</label><br>
+
+<select>
+<option>BCA</option>
+<option>B.Tech</option>
+<option>BSc</option>
+<option>BCom</option>
+</select>
+
+<br><br>
+
+<label>Hobbies:</label><br>
+
+<input type="checkbox"> Reading
+<input type="checkbox"> Sports
+<input type="checkbox"> Music
+
+<br><br>
+
+<label>Address:</label><br>
+
+<textarea rows="4" cols="30"></textarea>
+
+<br><br>
+
+<input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
+
