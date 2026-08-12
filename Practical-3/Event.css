@@ -1,0 +1,108 @@
+body{
+    background-color:#f2f2f2;
+    font-family:Arial,sans-serif;
+    color:#333333;
+}
+
+.navbar{
+    background-color:#003366;
+    text-align:center;
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:12px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:#cfe8ff;
+}
+
+.events,
+.upcoming,
+.benefits,
+.registration{
+    width:80%;
+    margin:20px auto;
+    background-color:white;
+    padding:20px;
+    border:1px solid #cccccc;
+}
+
+.events{
+    text-align:center;
+}
+
+.events h1,
+.upcoming h2,
+.benefits h2,
+.registration h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.upcoming h2,
+.benefits h2,
+.registration h2{
+    text-align:center;
+}
+
+.upcoming table,
+.registration table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.upcoming th,
+.upcoming td,
+.registration th,
+.registration td{
+    border:1px solid #777777;
+    padding:10px;
+    text-align:center;
+}
+
+.upcoming th,
+.registration th{
+    background-color:#cfe8ff;
+    color:#003366;
+}
+
+.benefits{
+    text-align:center;
+}
+
+.benefits ul{
+    display:inline-block;
+    text-align:left;
+    margin:0 auto;
+    padding-left:20px;
+}
+
+.benefits li{
+    margin:5px;
+}
+.registration{
+    text-align:center;
+}
+
+.registration input{
+    width:300px;
+    padding:8px;
+}
+
+.registration button{
+    background-color:#003366;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:8px;
+    cursor:pointer;
+}
+
+.registration button:hover{
+    background-color:#0055aa;
+}

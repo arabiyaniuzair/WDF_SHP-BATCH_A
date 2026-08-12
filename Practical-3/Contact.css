@@ -1,0 +1,123 @@
+body{
+    background-color:#f2f2f2;
+    font-family:Arial,sans-serif;
+    color:#333333;
+}
+
+.navbar{
+    background-color:#003366;
+    text-align:center;
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:12px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:#cfe8ff;
+}
+
+.contact,
+.information,
+.form,
+.support,
+.footer{
+    width:80%;
+    margin:20px auto;
+    background-color:white;
+    padding:20px;
+    border:1px solid #cccccc;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact h1,
+.information h2,
+.form h2,
+.support h2,
+.footer h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.information h2,
+.form h2,
+.support h2,
+.footer h2{
+    text-align:center;
+}
+
+.information table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.information th,
+.information td{
+    border:1px solid #777777;
+    padding:10px;
+    text-align:center;
+}
+
+.information th{
+    background-color:#cfe8ff;
+    color:#003366;
+}
+
+.form{
+    text-align:center;
+}
+
+.form p{
+    margin-top:10px;
+    margin-bottom:8px;
+}
+
+.form input{
+    width:300px;
+    padding:8px;
+}
+
+.form button{
+    background-color:#003366;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    margin:8px;
+    cursor:pointer;
+}
+
+.form button:hover{
+    background-color:#0055aa;
+}
+
+.support{
+    text-align:center;
+}
+
+.support ul{
+    display:inline-block;
+    text-align:left;
+    margin:0 auto;
+    padding-left:20px;
+}
+
+.support{
+    margin:5px;
+}
+
+.footer{
+    text-align:center;
+    background-color:#003366;
+    color:white;
+}
+
+.footer h2{
+    color:white;
+}

@@ -1,0 +1,99 @@
+body{
+    background-color:#f2f2f2;
+    font-family:Arial,sans-serif;
+    color:#333333;
+}
+
+.navbar{
+    background-color:#003366;
+    text-align:center;
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:12px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:#cfe8ff;
+}
+
+.about,
+.mission,
+.objective,
+.feature,
+.university,
+.footer{
+    width:80%;
+    margin:20px auto;
+    background-color:white;
+    padding:20px;
+    border:1px solid #cccccc;
+}
+
+.about h1,
+.mission h2,
+.objective h2,
+.feature h2,
+.university h2{
+    text-align:center;
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.about p,
+.mission p,
+.footer p{
+    text-align:center;
+    line-height:28px;
+}
+
+.objective{
+    text-align:center;
+}
+
+.objective ul{
+    display:inline-block;
+    text-align:left;
+    margin:0 auto;
+    padding-left:20px;
+}
+
+.objective li{
+    margin:5px;
+}
+
+.feature table,
+.university table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+.feature th,
+.feature td,
+.university th,
+.university td{
+    border:1px solid #777777;
+    padding:10px;
+    text-align:center;
+}
+
+.feature th,
+.university th{
+    background-color:#cfe8ff;
+    color:#003366;
+}
+
+.footer{
+    text-align:center;
+    background-color:#003366;
+    color:white;
+}
+
+.footer p{
+    color:white;
+}
