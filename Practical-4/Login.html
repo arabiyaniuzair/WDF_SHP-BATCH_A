@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login - StudentHub Portal</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+         <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Event.html">Events</a>
+        <a href="Profile.html">Profile</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Admin.html">Admin</a>
+        <a href="Faq.html">FAQ</a>
+        <a href="Register.html">Register</a>
+        <a href="Login.html" id=" LoginLogout">Login</a>
+    </div>
+
+    <div class="login">
+        <h1>Student Login</h1>
+        <p>Enter your Student ID and Password</p>
+    </div>
+
+    <div class="form">
+
+        <form id="loginForm">
+
+            <label>Student ID</label>
+            <input type="text" id="studentId">
+
+            <br>
+
+            <label>Password</label>
+
+       <div class="passwordBox">
+         <input type="password" id="password">
+         <button type="button" id="showPassword">👁</button>
+   </div>
+
+            <br><br>
+
+            <button type="submit">Login</button>
+            <button type="reset">Clear</button>
+
+        </form>
+
+    </div>
+
+    <script src="Login.js"></script>
+
+</body>
+</html>
