@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "question": "How do I register?",
+        "answer": "Open the Register page and fill in the registration form.",
+        "category": "Registration"
+    },
+    {
+        "id": 2,
+        "question": "How do I login?",
+        "answer": "Enter your registered email address and password.",
+        "category": "Login"
+    },
+    {
+        "id": 3,
+        "question": "How can I update my profile?",
+        "answer": "Go to the Profile page and update your information.",
+        "category": "Profile"
+    },
+    {
+        "id": 4,
+        "question": "Where can I see upcoming events?",
+        "answer": "Visit the Events page to view all upcoming events.",
+        "category": "Events"
+    },
+    {
+        "id": 5,
+        "question": "How can I contact the university?",
+        "answer": "Visit the Contact page for phone number and email address.",
+        "category": "Contact"
+    },
+    {
+        "id": 6,
+        "question": "How can I register for an event?",
+        "answer": "Open the Events page and select the event you want to attend.",
+        "category": "Events"
+    },
+    {
+        "id": 7,
+        "question": "What should I do if I forget my password?",
+        "answer": "Use the password recovery option on the Login page.",
+        "category": "Login"
+    },
+    {
+        "id": 8,
+        "question": "Can I change my email address?",
+        "answer": "You can update your account information from the Profile page.",
+        "category": "Profile"
+    }
+]
