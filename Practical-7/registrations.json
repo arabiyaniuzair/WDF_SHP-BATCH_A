@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Rahim Khan",
+        "email": "acd@gmail.com",
+        "mobile": "9876543232",
+        "password": "$2y$10$KuQjS64u5N26SjRMqE4Gs.mnYhTu3iRfPDQjz4TFp6uhmZpqaJeS6",
+        "course": "DIT",
+        "year": "1",
+        "gender": "Male"
+    },
+    {
+        "name": "Aman Khan",
+        "email": "ewq@gmail.com",
+        "mobile": "9090878743",
+        "password": "$2y$10$GPBA5uyP8sbFCNOAou115udQvd7iqQuUsou2rCNOkLPn8A8kk0sj6",
+        "course": "DIT",
+        "year": "1",
+        "gender": "Male"
+    },
+    {
+        "name": "Abdullah Saikh",
+        "email": "abdullah@gmail.com",
+        "mobile": "9090878743",
+        "password": "$2y$10$msj50.StFL5GL9RBoLZX0.uwtr4Q.dvOQQhzqSNyYGmjXgXIFmGCG",
+        "course": "B.Tech",
+        "year": "2",
+        "gender": "Male"
+    }
+]
