@@ -10,7 +10,6 @@ let locationName = "Changa";
 
 
 
-
 let locationUrl =
     "https://geocoding-api.open-meteo.com/v1/search" +
     "?name=" + encodeURIComponent(locationName) +
@@ -44,7 +43,7 @@ fetch(locationUrl)
         let countryName = location.country;
 
 
-        /* Get Weather */
+      
 
         let weatherUrl =
             "https://api.open-meteo.com/v1/forecast" +
@@ -110,7 +109,6 @@ fetch(locationUrl)
     });
 
 
-/* Convert Weather Code */
 
 function getWeatherCondition(code) {
 
