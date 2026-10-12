@@ -1,0 +1,130 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #003366;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #cfe8ff;
+}
+
+.events, .upcoming, .benefits, .registration, .form-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.events {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+.upcoming table, .registration table, .form-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #777;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #cfe8ff;
+    color: #003366;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.benefits ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.registration {
+    text-align: center;
+}
+
+.registration input, .registration textarea, .registration select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 6px 0 14px;
+    box-sizing: border-box;
+}
+
+button, .btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+button:hover, .btn:hover {
+    background-color: #0055aa;
+}
+
+.poster {
+    width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 14px;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.message {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .events, .upcoming, .benefits, .registration, .form-container {
+        width: 95%;
+        padding: 12px;
+    }
+
+    .navbar a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 15px;
+    }
+}
