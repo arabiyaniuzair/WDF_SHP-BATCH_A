@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f2f5f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+button {
+    padding: 9px 14px;
+    margin: 10px 5px 10px 0;
+    border: none;
+    border-radius: 4px;
+    background: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.edit {
+    background: #147d46;
+}
+
+.delete {
+    background: #c62828;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+th {
+    background: #cfe8ff;
+    color: #003366;
+}
+
+.success {
+    color: #147d46;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+.error {
+    color: #c62828;
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+
+    .container {
+        padding: 12px;
+    }
+}
