@@ -1,0 +1,278 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+.header {
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.header h1, h2, h3 {
+    color: #003366;
+}
+
+.header h1 {
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0055aa;
+}
+
+#notification {
+    background: #fff3cd;
+    color: #664d03;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ffecb5;
+}
+
+#closeNotification {
+    padding: 5px 10px;
+}
+
+.navbar {
+    background: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #ffff99;
+}
+
+#menuButton {
+    display: block;
+    margin: 10px;
+}
+
+.welcome, .announce, .event, .statistics, .slider {
+    width: 80%;
+    margin: 20px auto;
+    padding: 22px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.welcome, .slider, .event, .statistics {
+    text-align: center;
+}
+
+.welcome h2, .announce h2, .event h2,
+.statistics h2, .slider h2 {
+    margin-bottom: 15px;
+}
+
+.welcome p, .slider p {
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.announce ul {
+    display: table;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+.announce li {
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #cfe8ff;
+    color: #003366;
+}
+
+#slideContent {
+    min-height: 100px;
+    padding: 15px;
+}
+
+#slideContent h3 {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
+
+#modal[hidden] {
+    display: none;
+}
+
+#modal {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.65);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modalContent {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modalContent h2 {
+    margin-bottom: 15px;
+}
+
+.modalContent p {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.modalContent .modalClose {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: transparent;
+    color: #333;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+body.dark {
+    background: #181818;
+    color: #eee;
+}
+
+body.dark .header,
+body.dark .welcome,
+body.dark .announce,
+body.dark .event,
+body.dark .statistics,
+body.dark .slider {
+    background: #292929;
+    color: #eee;
+    border-color: #444;
+}
+
+body.dark .header h1,
+body.dark h2,
+body.dark h3,
+body.dark .header p,
+body.dark .welcome p,
+body.dark .slider p {
+    color: #eee;
+}
+
+body.dark th {
+    background: #394b60;
+    color: white;
+}
+
+body.dark td {
+    color: #eee;
+}
+
+body.dark .modalContent {
+    background: #292929;
+    color: #eee;
+}
+
+body.dark .modalContent h2,
+body.dark .modalContent p,
+body.dark .modalContent .modalClose {
+    color: #eee;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar.show {
+        display: flex;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 8px;
+    }
+
+    .welcome, .announce, .event, .statistics, .slider {
+        width: 94%;
+        padding: 15px;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 400px;
+    }
+
+    .modalContent {
+        padding: 25px 15px;
+    }
+}
